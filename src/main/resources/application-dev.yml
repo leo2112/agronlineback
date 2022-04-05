@@ -14,9 +14,9 @@ spring:
 
   datasource:
     type: com.zaxxer.hikari.HikariDataSource
-    url: jdbc:postgresql://localhost:5433/agro_online
+    url: jdbc:postgresql://localhost:5432/agro_online
     username: postgres
-    password: alison1221
+    password: 10d2200537c7c13d60e42add6a39ea47a6ee2abb1e0dd556d673f5c01e0cebad
     hikari:
       idle-timeout: 10000
       maximum-pool-size: 5
